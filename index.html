@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="./style.css">
+	<script src="./script.js" defer></script>
+	<title>Jeu de la life</title>
+</head>
+<body>
+	<div id="game">
+		<h1>Le jeu de la vie</h1>
+		<div class="start">
+			<h2>Settings</h1>
+			<div class="formNbr">
+				<div class="nbrRows">
+					<p>Rows</p>
+					<input type="number" id = "row" min="1" max="50"/>
+				</div>
+				<div class="nbrCols">
+					<p>Cols</p>
+					<input type="number" id="cols" min="1" max="50"/>
+				</div>
+				<button onclick="play()">Start</button>
+
+			</div>
+			<p>Explication about "Jeu de la vie" : <a href="https://www.youtube.com/watch?v=S-W0NX97DB0">https://www.youtube.com/watch?v=S-W0NX97DB0</a></p>
+		</div>
+		<table>
+
+		</table>
+
+	</div>
+</body>
+</html>
